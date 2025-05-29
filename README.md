@@ -1,3 +1,4 @@
+<!--
 <div align="center">
 <h1>👋 I'm Alejandro</h1>
 
@@ -32,11 +33,13 @@ I'm currently focused on software development working in the department of I+D &
   <br>• 
   <a href="mailto:avillarrubia2@gmail.com"> Email</a>
 </p>
-<!--START_GIF-->
+
 <p align="center"><img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400"></p>
-<!--END_GIF-->
+
 
 </div>
+-->
+
 
 <!--
 **villarrubi/villarrubi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
