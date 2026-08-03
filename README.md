@@ -1,4 +1,4 @@
-<!--
+
 <div align="center">
 <h1>👋 I'm Alejandro</h1>
 
@@ -54,4 +54,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
 -->
