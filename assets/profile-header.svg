@@ -1,67 +1,36 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Alejandro Villarrubia</title>
-  <desc id="description">Ingeniería de software, inteligencia artificial local y ciberseguridad</desc>
-
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Alejandro Villarrubia — Software Engineer</title>
+  <desc id="desc">A minimal professional header featuring Alejandro Villarrubia's AV monogram</desc>
   <defs>
-    <linearGradient id="background" x1="50" y1="20" x2="1140" y2="345" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071827"/>
-      <stop offset="0.55" stop-color="#0A2635"/>
-      <stop offset="1" stop-color="#103F48"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D12"/>
+      <stop offset="1" stop-color="#111A22"/>
     </linearGradient>
-    <linearGradient id="accent" x1="699" y1="55" x2="1075" y2="294" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#2DD4BF"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#14B8A6"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(973 183) rotate(180) scale(322 264)">
-      <stop stop-color="#2DD4BF" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#7DD3FC" stroke-opacity="0.07"/>
-    </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.32"/>
-    </filter>
   </defs>
-
-  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
-  <rect x="630" width="570" height="360" rx="28" fill="url(#glow)"/>
-
-  <g opacity="0.34">
-    <circle cx="1124" cy="50" r="2" fill="#7DD3FC"/>
-    <circle cx="1080" cy="310" r="3" fill="#5EEAD4"/>
-    <circle cx="685" cy="69" r="2" fill="#7DD3FC"/>
-    <path d="M640 300C742 236 768 92 875 78C992 63 1056 196 1187 148" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="7 9"/>
-  </g>
-
-  <g transform="translate(72 76)">
-    <rect width="52" height="7" rx="3.5" fill="url(#accent)"/>
-    <text x="0" y="73" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="750" letter-spacing="1">ALEJANDRO</text>
-    <text x="0" y="130" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="300" letter-spacing="1">VILLARRUBIA</text>
-    <text x="2" y="184" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="500" letter-spacing="1.2">SOFTWARE · IA LOCAL · CIBERSEGURIDAD</text>
-  </g>
-
-  <g transform="translate(742 48)" filter="url(#shadow)">
-    <rect width="356" height="264" rx="24" fill="#071D2A" stroke="#38BDF8" stroke-opacity="0.22"/>
-    <circle cx="28" cy="27" r="5" fill="#FB7185"/>
-    <circle cx="46" cy="27" r="5" fill="#FBBF24"/>
-    <circle cx="64" cy="27" r="5" fill="#34D399"/>
-    <path d="M0 54H356" stroke="#7DD3FC" stroke-opacity="0.12"/>
-
-    <path d="M38 89L55 104L38 119" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M67 119H102" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
-    <rect x="37" y="149" width="96" height="9" rx="4.5" fill="#E0F2FE" fill-opacity="0.78"/>
-    <rect x="37" y="172" width="143" height="9" rx="4.5" fill="#7DD3FC" fill-opacity="0.48"/>
-    <rect x="37" y="195" width="118" height="9" rx="4.5" fill="#5EEAD4" fill-opacity="0.48"/>
-
-    <g transform="translate(223 78)">
-      <path d="M47 0C69 20 82 45 77 73C74 93 64 108 51 122H5C22 105 29 89 29 70C29 52 20 43 0 38C11 16 28 3 47 0Z" fill="url(#accent)"/>
-      <path d="M30 24C38 20 47 19 56 23" stroke="#071D2A" stroke-width="5" stroke-linecap="round"/>
-      <circle cx="48" cy="42" r="4" fill="#071D2A"/>
-      <path d="M10 122H88L98 139H0L10 122Z" fill="#BAE6FD"/>
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="23" stroke="#334155"/>
+  <rect x="58" y="55" width="4" height="210" rx="2" fill="url(#accent)"/>
+  <g transform="translate(92 61)">
+    <text x="0" y="23" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3">SOFTWARE ENGINEER</text>
+    <text x="0" y="96" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="53" font-weight="700" letter-spacing="0.5">Alejandro Villarrubia</text>
+    <text x="1" y="139" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="400">Building reliable software for real-world problems.</text>
+    <g transform="translate(0 169)" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.2">
+      <text x="0" y="18">C++</text><circle cx="49" cy="13" r="2" fill="#14B8A6"/>
+      <text x="65" y="18">PYTHON</text><circle cx="140" cy="13" r="2" fill="#14B8A6"/>
+      <text x="156" y="18">LOCAL AI</text><circle cx="238" cy="13" r="2" fill="#14B8A6"/>
+      <text x="254" y="18">SECURITY</text>
     </g>
   </g>
-
-  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="#7DD3FC" stroke-opacity="0.12" stroke-width="2"/>
+  <g transform="translate(908 38)">
+    <circle cx="122" cy="122" r="110" stroke="#334155"/>
+    <circle cx="122" cy="122" r="82" stroke="#1E293B" stroke-width="24"/>
+    <path d="M68 170L112 68H130L176 170H151L121 96L93 170H68Z" fill="#F8FAFC"/>
+    <path d="M128 68H154L177 125L200 68H225L185 170H169L128 68Z" fill="url(#accent)"/>
+    <circle cx="122" cy="12" r="4" fill="#67E8F9"/>
+    <circle cx="231" cy="122" r="4" fill="#14B8A6"/>
+  </g>
 </svg>
