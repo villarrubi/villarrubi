@@ -1,0 +1,42 @@
+name: Actualizar serpiente de contribuciones
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Generar animación
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Crear versiones clara y oscura
+        uses: Platane/snk/svg-only@v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#0ea5e9&color_dots=#ebedf0,#bae6fd,#7dd3fc,#2dd4bf,#0f766e
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#2dd4bf&color_dots=#161b22,#164e63,#0e7490,#0891b2,#2dd4bf
+
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Actualizar serpiente de contribuciones"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

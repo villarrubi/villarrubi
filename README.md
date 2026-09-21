@@ -1,3 +1,19 @@
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/villarrubi/villarrubi/output/github-contribution-grid-snake-dark.svg"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/villarrubi/villarrubi/output/github-contribution-grid-snake.svg"
+  >
+  <img
+    src="https://raw.githubusercontent.com/villarrubi/villarrubi/output/github-contribution-grid-snake.svg"
+    alt="Animación de una serpiente recorriendo las contribuciones de Alejandro Villarrubia"
+    width="100%"
+  >
+</picture>
+
 <p align="center">
   <img src="./assets/profile-header.svg" alt="Alejandro Villarrubia — ingeniería de software, inteligencia artificial local y ciberseguridad" width="100%">
 </p>
